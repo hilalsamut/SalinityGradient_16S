@@ -10,7 +10,7 @@ fastqc /workdir/mls528/SalinityGradient_16S/data/01_DADA2/01_raw_gzipped_fastqs/
 
 # MultiQC
 
-## LOAD MULTI QaC
+## LOAD MULTI QC
 
 export PYTHONPATH=/programs/multiqc-1.15/lib64/python3.9/site-packages:/programs/multiqc-1.15/lib/python3.9/site-packages export PATH=/programs/multiqc-1.15/bin:$PATH
 
