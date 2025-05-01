@@ -12,7 +12,7 @@ The goal is to make a phylogenetic tree!
 
 1. Load in our preprocessed phyloseq object (raw_preprocessed_phyloseq.RData)
 2. Create ASV fasta file from the phyloseq object
-3. Align the 16S sequences from our fasta file with MAFT
+3. Align the 16S sequences from our fasta file with MAFFT
 4. Create a maximum liklihood tree using FastTree2
 
 ### Inputs
@@ -95,6 +95,9 @@ RANDOM=238428
 ```{r run-fasttree, engine='bash', engine.opts='-l'}
 #provide export path to FastTree
 export PATH=/programs/FastTree-2.1.11:$PATH
+
+cd data/04_Phylogenetic_Tree
+pwd
 
 # Run FastTree to generate phylogenetic tree
 #parameters:
